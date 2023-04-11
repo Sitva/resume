@@ -1,0 +1,116 @@
+body {
+    font-family: 'Chivo Mono', monospace;  
+}
+
+.container {
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(53,92,125);
+    /* background: linear-gradient(180deg, #355c7d, #6c5b7b, #c06c84, #f67280, #f8b195); */
+    background: linear-gradient(180deg, #355c7d, #6c5b7b, #c06c84);
+}
+
+.main_block {
+    background-color: white;
+    height: 550px;
+    width: 1000px;
+    border-radius: 10px;
+    border: solid;
+    background-color: rgba(0, 0, 0, 0.5) ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header {
+    font: 400;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+}
+
+.middle {
+    display: flex;
+}
+
+.middle_left {
+    width: 400px;
+    height: 460px;
+    border-right: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_container_start {
+    border-bottom: solid;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.list_head {
+    font-size: 30px;
+}
+
+.list {
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+.list_container_end {
+    border: none;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.middle_right {
+    width: 597px;
+    height: 510px;
+}
+
+.edu_head {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.edu_list {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.list_button {
+    font-family: 'Chivo Mono', monospace;  
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid;
+    border-width: 2px;
+    border-radius: 13px;
+    transition: background-color 0.3;
+}
+
+.list_button:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.listings {
+    margin-bottom: 5px;
+}
+
+.listings1 {
+    margin-bottom: 8px;
+}
